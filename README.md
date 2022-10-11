@@ -2,11 +2,13 @@
 
 The Code of COMMA (COgnitive fraMework of huMan Activity).
 
+**Paper:** COMMA: Modeling Relationship among Motivations, Emotions and Actions in Language-based Human Activities. *Yuqiang Xie, Yue Hu, Wei Peng, Guanqun Bi, Luxi Xing.* [[pdf](https://arxiv.org/abs/2209.06470)] in COLING 2022.
+
 ## Setup
 
 Download the pre-trained language models from https://huggingface.co/datasets.
-- BERT-LARGE
-- ROBERTA-LARGE
+- BERT-BASE/LARGE
+- ROBERTA-BASE/LARGE
 - GPT-2-LARGE
 - BART-LARGE
 
@@ -33,12 +35,12 @@ bash ./scripts/comma_e2m/run_comma_e2m_roberta.sh
 
 #### GPT-2
 ```bash
-# train w/ individual and needs
-bash ./scripts/comma_x2b/run_gpt2_lm_m2b.single.sh
-# train w/ individual and emotions
-bash ./scripts/comma_x2b/run_gpt2_lm_e2b.single.sh
-# train w/ all
-bash ./scripts/comma_x2b/run_gpt2_lm_me2b.single.sh
+# baseline
+bash ./scripts/comma_x2b/run_gpt2_cag_baseline.sh
+# train w/ emotions
+bash ./scripts/comma_x2b/run_gpt2_cag_with_emotion_prediction.sh
+# train w/o all
+bash ./scripts/comma_x2b/run_gpt2_cag_wo_emotion_prediction.sh
 ```
 #### BART-Large
 
