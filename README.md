@@ -6,7 +6,7 @@ The Code of COMMA (COgnitive fraMework of huMan Activity).
 
 ## Setup
 
-Download the pre-trained language models from https://huggingface.co/datasets.
+Download the pre-trained language models from https://huggingface.co/models.
 - BERT-BASE/LARGE
 - ROBERTA-BASE/LARGE
 - GPT-2-LARGE
