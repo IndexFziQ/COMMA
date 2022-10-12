@@ -2,7 +2,7 @@
 
 The Code of COMMA (COgnitive fraMework of huMan Activity).
 
-**Paper:** COMMA: Modeling Relationship among Motivations, Emotions and Actions in Language-based Human Activities. *Yuqiang Xie, Yue Hu, Wei Peng, Guanqun Bi, Luxi Xing.* [[pdf](https://arxiv.org/abs/2209.06470)] in COLING 2022.
+**Paper:** COMMA: Modeling Relationship among Motivations, Emotions and Actions in Language-based Human Activities. *Yuqiang Xie, Yue Hu, Wei Peng, Guanqun Bi, Luxi Xing.* [[pdf](https://aclanthology.org/2022.coling-1.15.pdf)] in COLING 2022.
 
 ## Setup
 
